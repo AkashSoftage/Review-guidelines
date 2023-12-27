@@ -12,3 +12,4 @@
 ## security
 - [] No known security vulnerabilities introduced.
 - [] Sensitive data is handled securely.
+- [] inputs are properly sanitized and validated.
