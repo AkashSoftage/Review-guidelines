@@ -13,9 +13,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v2      
 
-      - name: Install Dependencies
-        run: npm install
-
+   
       - name: Run axe Accessibility Tests
         run: npx axe --exit
 
